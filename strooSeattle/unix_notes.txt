@@ -62,3 +62,8 @@ CD  =  CD ~  =  CD /users/hansDstroo
 The root is the topmost container of a computer filesystem.
 The root is generally restricted to administrative users.
 
+Dealing with space in the command line? Use the forward-slash (\) as an “escape character.” The secret lies in tricking the command line into thinking that the space is just another character like any letter or number.
+
+On Windows & Mac, the command line is case insensitive.
+
+CTRL + U will clear the command line quickly.

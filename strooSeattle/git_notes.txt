@@ -1,4 +1,6 @@
-Git is a version control system.
+Ewing’s presentation on Git: http://cewing.github.io/cf-uge/making.html#18
+
+——————————————————
 
 It is often called a dVCS (because it’s a distributed VCS).
 
@@ -22,7 +24,7 @@ When you’re trying to produce a manual on a git sub-command, use the dash betw
 
 
 Commands                                | Action
-----------------------------------------|----------------------------------------------------------------
+----------------------------------------|------------------------------------------------
 git init                                | Initialize a git repo
 git status                              | Displays the current state of the project
 git add filename                        | Adds that file to the staging area and starts tracking changes

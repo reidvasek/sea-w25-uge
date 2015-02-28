@@ -1,3 +1,7 @@
+Ewing’s notes on Unix: http://cewing.github.io/cf-uge/making.html
+
+—————————
+
 Applications can live in a lot of homes: 
 a laptop
 a mobile phone

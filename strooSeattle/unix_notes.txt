@@ -1,0 +1,64 @@
+Applications can live in a lot of homes: 
+a laptop
+a mobile phone
+a web browser,
+or, a server
+
+A data center is a warehouse or racks, filled with servers, wires, and a massive cooling infrastructure.
+
+The majority of the world’s largest and most sophisticated apps live on servers. Most of those apps live on Unix servers. 
+
+Unix is an OS that most servers run. Most applications developers work in Unix too.
+
+Unix benefits:
+faster,
+stable,
+compatible, 
+typically free.
+
+Unix is:
+multi-process
+it can run more than one program at a time
+multi-user
+more than one user account can be logged in simultaneously
+developed by: Ken Thompson, Dennis Ritchie, and others at AT&T Bell Labs Research Center.
+Released in 1973.
+over the years it’s fragmented into three main families.
+
+Linux: the Unix-like core of Android, Ubuntu
+Darwin: the Unix-like core of iOS & OSX10
+
+Why is Unix such a developer-friendly OS?
+Data as plaintext file. Easy to read and parse data with your brain in the same way a computer would read and process.
+Subdirectories. Nested files.
+Made up of many small programs. Good for users & developers.
+Input-output redirection. Input can come from someplace besides keyboard. Output can go someplace besides the screen.
+These concepts make up the UNIX philosophy: a set of best practices for making small, yet capable software.
+
+UNIX kernel: manages the hardware
+
+Kernel is the strawberry filling between the two cookie crusts.
+
+On top is the other programs running.
+In the middle is the kernel.
+On bottom is hardware like CPU & memory.
+
+The kernel decides when/how much the CPU and memory will be engaged. It also manages input from hardware like mouse & keyboard.
+
+UNIX shell: provides user interface to the kernel
+
+Different types of shells: Command line terminals, GUIs, multi-touch user interfaces, audible user interfaces
+
+The shell prevents the user from directly accessing the kernel. The shell protects the kernel from the user.
+
+
+An absolute path starts with a  slash.
+Whereas relative paths do not start with a slash.
+
+PWD = print working directory.
+CD (by itself) will take you to the home directory.
+CD  =  CD ~  =  CD /users/hansDstroo
+
+The root is the topmost container of a computer filesystem.
+The root is generally restricted to administrative users.
+

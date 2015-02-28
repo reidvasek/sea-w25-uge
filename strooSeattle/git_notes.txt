@@ -13,6 +13,12 @@ git commit -m '<message>' Commits the staging area to the repository with a <mes
 
 When you’re trying to produce a manual on a git sub-command, use the dash between “git” and the subcommand. Example: $ man git-config
 
+5 pieces of a commit:
+1. Message
+2. ID
+3. Timestamp
+4. Diff (changes)
+5. Signature
 
 
 Commands                                | Action

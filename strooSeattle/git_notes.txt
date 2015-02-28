@@ -11,6 +11,10 @@ git add <file> Adds any changes inside <file> to the staging area
 git commit -m '<message>' Commits the staging area to the repository with a <message>
 
 
+When you’re trying to produce a manual on a git sub-command, use the dash between “git” and the subcommand. Example: $ man git-config
+
+
+
 Commands                                | Action
 ----------------------------------------|----------------------------------------------------------------
 git init                                | Initialize a git repo

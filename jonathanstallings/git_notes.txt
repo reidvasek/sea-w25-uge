@@ -1,0 +1,3 @@
+Git is a useful version control system.
+
+git push -u origin master   The -u flag ties the local branch to the remote, such that future updates can be done with git push alone.

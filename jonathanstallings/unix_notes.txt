@@ -1,0 +1,16 @@
+ls                      Lists out the contents of the working directory.
+pwd                     Prints the working directory path
+subl .                  Opens sublime text on current folder
+bash                    Starts instance of bash shell
+man man                 Manual page for man command
+man less                Manual page for less command
+touch git_notes.txt     Creates empty file called git_notes.txt
+cd <path>               Changes the working directory to path.
+history                 Lists shell command history.
+exit                    Exists shell instance.
+mkdir <name>            Makes directory <name> under working directory.
+history | less          Pipes history into less; outputs paged history.
+history | sort | less   Pipes history into sort into less; outputs sorted, paged history.
+history | sort          Pipes history into sort; outputs sorted history.
+history > myfile.text   Sends output of history to overwrite contents of myfile.text, creating file if necessary.
+which <command>         Prints location of program.

@@ -1,0 +1,9 @@
+5 parts of a commit:
+  id
+  message
+  signature
+  diff
+  timestamp
+
+
+

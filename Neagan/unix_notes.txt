@@ -1,0 +1,121 @@
+Why UNIX?
+• More stable/compatible and free
+
+What is UNIX?
+• Computer operating system → multi process (runs more than one program at a time)
+• Multi user (more than one user account can be logged in at the same time)
+• Developed by Ken Thompson, Dennis Ritchie, and others (AT&T Bell Labs)
+• Released in 1973
+• Multi-platform software
+
+LINUX         DARWIN → UNIX like core for Mac OS X
+
+4 Common Traits → UNIX philosophy
+• Data as plaintext files
+• Nested subdirectories
+• Many small programs
+• Input-output redirection
+o Output to screen or file
+
+UNIX Kernel
+• Just a program → manages the hardware
+• Other programs → Kernel   → CPU
+            → Memory
+            → Devices
+• Safe from hackers → requires password
+
+UNIX Shell
+• Another program → user interface to the kernel
+• Command line, graphical, multi-touch, audible → all shells
+• Programmers usually refer to the command line variety of shells
+• Prevents user from directly accessing the kernel
+• Sweats the details
+• BASH → Bourne Again Shell
+• FISH → “user friendly” shell
+• Works as read-evaluate-print-loop (REPL)
+
+Homebrew
+• OS X de facto package manager
+
+Commands
+• pwd → shows the present working directory
+• cd → change directory
+• ls → list
+• man → manual for command
+• cp → copy
+
+Path
+• Represents a location in the file system (like a backwards envelope address)
+• Absolute when it starts with a /
+• Relative when it does not
+• Currently shows: /Users/neagan
+
+cd
+• cd / → changes to root directory
+o Root is generally restricted to admin → do NOT delete from root
+• Just using “cd” will return to home directory
+ls
+• You can supply a flag to a command with the “–“ sign
+• -t changes ordering by modification time
+• -l shows in long format
+• -lt or other combinations can be used to combine commands
+• -r reverses ordering
+
+man
+• Lists flags for a given command in the form of a manual
+• “q” quits this manual
+
+Commands
+• Ctrl – c
+o Kills current execution (good for infinite loops)
+• Ctrl – u
+o Deletes written text
+• “clear” or cmd – k
+o Clears terminal
+
+Other Characters
+• “\” Escape character
+o “\ “ will work for spaces in file names
+o Quotes around the file name will also work
+• “..” Double dot
+o Moves up one directory
+• “.” Single dot
+o Current working directory
+• “~” Tilde
+o Absolute path of home directory
+
+Naming Conventions
+• UNIX users tend to avoid spaces in names, use dashes (-) or underscores (_) to separate names
+• Depends on programming language conventions
+• OS X is case insensitive (foo.jpg == FOO.JPG)
+o Most unix users will tend to write all names in lower case
+
+
+
+
+
+
+
+Captured History
+• Shell keeps track of what you do
+o “history” command retrieves this
+o “history | less” displays one page of history
+• “ | “ (pipe) redirects output of first command to second command
+• “h” displays summary of “less” commands
+• space bar acts as page down
+• “man” command is a form of “less”
+
+Save History
+• history > file_name.txt
+o Running this twice overwrites the first file (destructive)
+• “nano” is a built in text editor (quit with ^x)
+• history >> file_name.txt
+o Appends to first file
+
+mkdir
+• Make directory
+
+mv
+• Move file to directory
+• Can also rename file to target directory
+• Expects source and destination

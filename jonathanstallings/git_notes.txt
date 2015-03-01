@@ -1,3 +1,43 @@
-Git is a useful version control system.
+Getting Started with Git
 
-git push -u origin master   The -u flag ties the local branch to the remote, such that future updates can be done with git push alone.
+  Commands
+    git init        Initialize a git repository inside the current folder
+    git add <file>  Add a file to be tracked by git
+
+    git commit -a -m "message"      Makes a commit. -m specifies the commit message. -a commits all known tracked changes; otherwise, only changes in the staging area will be committed.
+
+    git status      prints status of git repo
+    git log         Prints out the history log for the repo
+    git checkout    Checks out a git branch or commit
+
+  Other
+    HEAD            Special name for current commit
+    HEAD~1          Special name for previous commit
+
+Branches
+
+  Commands
+    git branch <branch_name>                Creates a new branch of the project. If no branch name is given, lists current branches and active branch.
+    git checkout -b <branch_name>           Creates a new branch and checks it out at the same time
+
+Merging
+
+  Commands
+    git merge <branch_name>                 Merge branch_name back into the currently selected branch
+
+Working with Remote Repositories
+
+  Commands
+    git clone url                           Clones a remote repository
+    git push <remote_name> <branch_name>    Pushes a branch to a remote repo
+    git push -u <remote_name> <branch_name> As above, but 'u' flag links local branch with remote branch; thus further pushes can omit <remote_name> <branch_name>.
+    git remote add <remote_name> <url>      Adds a remote repo
+    git pull <remote_name> <branch_name>    Pulls branch from remote repo
+
+Workflow
+
+  Commands
+    git flow                                extension to git to organize branches
+    git flow feature start <feature_name>   create new feature branch based on integration branch
+    git flow feature finish <feature_name>  merge feature branch into integration branch
+    git flow hotfix start <hotfix_name>     create new hotfix branch based on master

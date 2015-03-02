@@ -1,0 +1,26 @@
+New commands I learned:
+
+pwd - "print working directory" - shows directory I'm in right now
+
+history - shows the history of terminal commands in order from newest at top and oldest at bottom
+  -r flag shows the list in reverse order
+  | "pipe" symbol redirects output of left call into input of right call
+  > pushes output of left call into file on the right.  If no such file exists a new one is created.
+    if the file does exist it is overwritten.
+  >> pushes output of left call into file on the right.  If no such file exists a new one is created.
+    if the file does exist the values are appended to the file.
+
+ls - lists contents of directory
+  -l shows things in long format
+
+less - a paging system, where output is shown one page at a time.  "q" to quit.  Up and down arrows to scroll.
+cat - concatenates contents of two files and ouputs the results to the screen.
+clear - clears the terminal
+
+cd - change directory
+  . is the current directory
+  .. goes up one directory
+  / goes to the root directory
+  ~ goes to the home directory (cd on its own does this too)
+
+mv - moves a file/directory and/or renames them.

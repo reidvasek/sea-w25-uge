@@ -1,0 +1,9 @@
+git init initializes new repository (only happens once)
+git add puts changed files into the staging area
+git commit -m '<message>' commits staging area to repository with message
+git status checks for untracked changes, shows staging area
+git log shows history of commits
+git branch creates or switches branches
+git remote add origin <address> adds a remote
+git push -u origin master pushes current branch to remote and establishes link so you don't have to retype address each time
+git pull pulls down current remote branch

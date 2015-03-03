@@ -1,0 +1,28 @@
+++++++++++++++++++++++++++++++++++++++++++++
++++++JASON MONTOYA - UNIX NOTES+++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++
+
+cd    = change directory
+pwd   = print working dir
+mkdir = make directory
+list  = list stuff
+ll    = list stuff long
+mv    = move or rename
+
+man   = manual
+
+q     = quit
+
+.     = here
+..    = up one from here
+../   = back one in one
+~     = home
+\     = escape char
+
+|     = piping
+
+>     = make in
+>>    = update in
+
+subl  = open sublime
+subl index.html = open index in sublime

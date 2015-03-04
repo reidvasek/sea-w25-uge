@@ -1,0 +1,38 @@
+Repository
+• Collection of files and their contents
+• Tracks changes of files overtime
+• We will utilize git
+• Retains motivations for a change
+• Initialize a repo in the directory where a project lives
+o “git init” → initializes a new repo (only need to run this once)
+o repo lives in .git folder
+• “red x” → means staging area is in a “dirty” state
+• “git status” → will check status of staging area → check “box”
+o Untracked file is not in the git folder
+• “git add” → adds file to staging area (tracks file)
+• “git rm --catched <file>” → unstages file
+• “git commit –m ‘message’” → commits staged file with message (use present tense)
+o message, id, timestamp, change, signature
+• “git log” → shows history of commits → check “circle”
+• “git ll” → displays in long form
+• .git repository is in a hidden folder
+• “git reset HEAD <file>” → unstages file
+• “git st” → short form
+• “git la” → display all
+• Modify → Add → Commit (until the day you quit programming)
+• “HEAD” → is always pointing to my recent commit of checked out branch
+• “git branch” → creates new branch OR shows active branch → points to whatever HEAD was pointing to and represents all commits that came before it
+o Branches are created from “known good states” (aka master branch)
+• “git checkout” → changes active branch
+• “touch” → creates new file
+• Get ONE staging area total
+
+GitHub
+• “git push” → pushes copy to github server
+• “git pull” → pull from github server
+• “git clone” → clone repos
+• Do not “Initialize this repository with a README” if you have already initialized in terminal
+• “git remote” → nickname for a URL
+o “origin” is a default nickname
+• “git push –u” → ties branch to push and pull with respecifying
+• “git branch –d”→ delete branch locally

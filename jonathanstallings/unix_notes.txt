@@ -1,0 +1,86 @@
+Basics
+
+  Commands
+    ls (-a)     Lists contents of a directory; a flag lists all hidden files as well
+    pwd         Prints current working directory
+    cd          Changes to another named directory (with absolute or relative path)
+    less        Prints out file contents, one page at a time. Use q to exit.
+    cat         Concatenates files; also prints output
+    nano        Console text editor
+    cp          Copy a tile
+    mv          Move or rename a file
+    mkdir       Make a directory
+    rm          Remove (delete) a file; use -r to recursively delete directories
+    clear       Clears the console screen
+
+  Other
+    ~           Represents the user's home directory
+    .           Represents the current directory
+    . .         Represents one level up from current directory
+    (up arrow)  Use to cycle through previous commands
+
+Users and Permissions
+
+  Commands
+    whoami      Lists current user
+    adduser     Interactively create new user
+
+    chmod (ugo) (+/-rwx) <file>       Change file permissions for User, Group, or Other by adding or subtracting rwx.
+    chown <owner>:<group> <file>      Change ownership of file.
+    sudo (command)                    Runs command as super user
+
+  Other
+    drwxrwxrwx  File permission string: d for directory, followed by three triplets of rwx. Read, Write, Execute permissions for user, group, and other.
+    743         Octal representation of -rwxr---wx. r = 4, w = 2, x = 1.
+    !!          Replaces !! with the previous command
+
+Processes
+
+  Commands
+    top         Lists processes in a live-updated, sorted list
+    ps (aux)    Prints static list of processes to console. aux options prints all system processes.
+    ctrl + z    Cause the current process to stop (pause); process moves to background
+    fg          Foreground (resume) the most recently paused job
+    jobs        Lists all processes on the current session
+    kill        sends a signal to a process. Used alone, causes graceful shutdown; -STOP pauses process; -KILL forces ungraceful shutdown.
+
+Environment and Redirection
+
+  Commands
+    export      Make a variable's value visible to programs started from current session
+    bash        Start a new instance of the bash shellew
+
+    grep (-i, -n, -v) "pattern" <file>    Find pattern within file. -i ignores case; -n prints line numbers; -v inverse search.
+    find <directory> (-name) <file>       Find a file within directories
+
+    Ctrl+d      Sends an "end of file" signal
+    sort        Sorts the lines of standard input and sends it to standard output
+
+  Other
+    .bashrc     Hidden bash config file
+    |           Used to connect one process's output with another processes input
+    >           Redirects output of a process
+    >>          Redirects output to append to FILE
+    2>          Redirects the standard error stream to FILE
+    /dev/null   Special directory which discards all data
+
+Installing Software
+
+  Commands
+    tar -xvf                    Extract from tar
+
+    curl -O (url)               Download file from url
+
+    ./configure                 Create makefile
+    make                        Compile from source
+
+    sudo make install           Install executable to appropriate directory in PATH
+
+    apt                         Advance package manager
+    apt-get install             Install named package
+    apt-get update              Update repo information
+    apt-get upgrade             Upgrade installed packages
+    apt-cache search <package>  Search for available named package
+
+  Other
+    build-essential             Package containing make and other essential tools

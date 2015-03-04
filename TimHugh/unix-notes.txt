@@ -1,0 +1,34 @@
+WHY UNIX
+
+History of UNIX
+  Unix developers:
+    Ken Thompson, Dennis Richie
+    Bell research labs in 60's
+
+  Released in 1973
+  BSD = Berkeley Software Distribution
+    Mac OS derived from NextStep, a fork of BSD
+    iOS also runs on Darwin
+
+  4 common traits that make unix developer friendly:
+    - nearly all data is stored in human-readable plaintext
+    - nested subdirectories
+      in the 60's, many OSes only allowed one level of subdirectories
+    - made up of many small programs
+    - input/output redirection
+
+  Unix shell named due to it's similarity to a turtle shell (protecting the
+      kernel from the outside world)
+
+  REPL = read, evaluate, print, loop
+
+  New bash tricks:
+    ctrl + u        clear current line
+    ls -S           sort by size
+    ls -t           sort by modified time
+    ls -r           reverse list
+
+  man just pipes shit into less
+    - you can see this by opening help in man
+
+

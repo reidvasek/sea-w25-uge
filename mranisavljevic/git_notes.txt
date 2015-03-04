@@ -1,0 +1,19 @@
+New commands I learned:
+
+git init - initializes the repository for git tracking
+git status - shows the status of the files in the repository staging area
+git add <file> - adds the named file into the staging area
+git commit - commits changes added to the staging area
+  -m "note" - while commiting you have to add a message to explain what the commit is meant to do.
+git branch - shows the current branch
+git branch <name> - creates a new branch with the specified name
+  -d - to delete branch
+git checkout <name> - moves you to the specified branch
+git log - shows log of commits
+git ll - shows condensed, single-row version of the log
+git la - shows detail of what changed in the commit
+git remote add origin <url> - points the repo to the remote url (on github)
+git push - pushes recent commits to github (ones that aren't already on github)
+git merge - merges one branch into another
+git pull - pulls commits from github onto local machine
+git clone - clones fork/repo onto desktop

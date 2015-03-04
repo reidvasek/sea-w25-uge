@@ -1,0 +1,41 @@
+++++++++++++++++++++++++++++++++++++++++++++
++++++JASON MONTOYA - GIT NOTES++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++
+
+man git-config
+
+-m    = message
+
+git log
+git ll
+
+git status  = shows us box
+git log     = shows commits
+
+M.A.C.
+Modify Add Commit
+
+Git st same as Git status
+
+############################
+###### GIT WORKFLOW ########
+
+git init
+
+git add .
+
+git commit -m 'First commit'
+
+git remote add origin https://github.com/jacethelefty/decksort.git
+
+git push -u origin master
+
+git status
+
+git —- version
+
+Create Branch
+git branch <name>
+
+Change Branch
+git checkout

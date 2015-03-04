@@ -1,0 +1,13 @@
+
+ls -t list in order of time created
+ls -lT list long form in order of time created down to the second
+ls -rlt list long form in reverse order of time created
+ls -rt list in reverse order of time created
+ls -r list in reverse alphabetical order
+ls -lt list long form in order of time created
+ls -l list long form
+cd / change directory to root
+pwd print working directory
+which uname print unix name
+man echo manual for echo command
+subl open sublime text 2

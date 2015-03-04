@@ -1,0 +1,21 @@
+git add <file> Adds any changes inside <file> to the staging area
+
+git commit -m '<message>' Commits the staging area to the repository with a <message>
+
+git checkout <name of branch> - switches branches
+
+git branch <name> - makes a new branch
+
+git merge <branch you want to merge with the one you're on> -
+
+git status -
+
+git remote - (usually origin)
+
+git push - pushes from your laptop to the server (git hub usually)
+
+git push -u origin master (so you don't have to type origin master each time with the -u flag)
+
+git pull - pull from server or another machine
+
+git clone - clones repositories onto your machine

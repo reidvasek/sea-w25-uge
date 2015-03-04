@@ -1,0 +1,9 @@
+cd - changes directory
+
+ls - lists directories or files 
+
+mv - moves directories or is used for renaming files
+
+mkdir - makes a new directory
+
+rm - remove, use -r to remove directories recursively

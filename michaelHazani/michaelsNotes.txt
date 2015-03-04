@@ -1,0 +1,79 @@
+Tons of versions of Unix/Linux/GNU anything/BSD - lots of per-platform problems and solutions
+
+Linux: unix-like core of OSs like Android and Ubuntu
+Darwin: unix-like core of OSX and iOS
+
+4 common dev-friendly traits of all Unix systems:
+-Nearly all data is stored as plaintext file
+-Nested Subdirectories
+-Many small programs
+-I/O redirection (input not necessarily keyboard, output not necessarily screen)
+
+Those things add up to the Unix philosophy: a set of best practices used when coding for it.
+
+Unix Kernel
+a program whose job is to manage the hardware. If any program wants permission to use the hardware, they have to go through the Kernel.
+
+
+
+
+It’s safe from Hackers (that’s why you have to enter password).
+
+Drivers are plugins for the Kernel - that’s why there’s so much password entry.
+
+
+Unix Shell
+a program whose job it is to provide a user interface to the kernel. Command Line user interface.
+The shell prevents the user from accessing the kernel. Also helps crashes.
+
+REPL: Read, Evaluate, Print, Loop
+
+[installed git, configured shell and CL per online lesson instructions in https://github.com/codefellows/sea-w25-uge]
+
+Home directory: a folder on the computer that belongs to you. Figure out by “pwd” (“print working directory”).
+Path is a location in your filesystem. General to specific.
+
+A path is absolute when it starts with a /.
+A path is relative when id doesn't.
+
+cd X to change directory. Path can be absolute or relative.
+pwd = /Users/michaelhazani
+
+
+
+
+cmd+k = clean screen
+cd = home directory
+cd ~ = same
+cd / = changed directories to the root. Cannot go any higher.
+Generally restricted to admins.
+ls can have modifiers (one or more after dash.)
+.. - up one
+. - current dir
+~ - home
+-t = tweaked (by modification time)
+-l = long format
+-r = reverse ordering
+-R = recursively shows every file on the computer.
+man = manual.
+\ backwards slash is an escape character instead of space. You can also add in quotes.
+Ctrl+C kills processes!
+
+ll = long list
+la - list ALL
+
+HIstory = all your commands ever in reverse order
+less = useful pager program, control movement through reading
+sort = alphabetically
+
+The pipe | letter can output the output of one command to the input of another.
+
+history > moving_around.txt would output history to a file called that (called “redirection”).
+> is destructive, >> appends (adds).
+
+
+To open/read files:
+cat XXXX - concatenate / READ files!
+nano XXXXX - internal text editor (ctrl+X to quit)
+sublime XXXXXX - opens it in sublime (because you set it up)
+less XXXXXXX - will show in the console one page at a time

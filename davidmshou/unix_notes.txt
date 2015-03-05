@@ -1,0 +1,5 @@
+- pwd lists current working directory or file
+- cd ../ goes back one directory
+- cd returns to the main menu (directory). In my case users/David
+- ls is one of the most useful commands in my opinion as it lists the directory contents of the path you are in.
+ 

@@ -1,0 +1,6 @@
+- git status lists current status of git in that directory (good practice to do this often to ensure working within the proper directory)
+- git add remote <url> adds a remote to your repository.
+- git add . adds all files listed to the staging area.
+- git commit -m "insert message here" commits the changes (important to have message, otherwise get bumped out to another text editor which is more difficult to navigate out of)
+- git push used to push changes to gitHub.
+- git checkout -b [url for branch you want to checkout] will checkout that branch so you can work on it from your machine.

@@ -1,0 +1,12 @@
+git init:  create new repository
+git add: add file to staging area
+git commit : commit changes
+git status : show current version control of project
+git log : show log of all commits
+git branch : show listing of all branches
+git branch <branch>: create new branch
+git checkout <branch> : switch to branch
+git merge <branch> : merge branch to master
+git remote : check all repositories
+git push <origin branch> : pushes changes to remote repository and adds new branch
+git pull <origin branch> : pulls repo from origin BRANCH

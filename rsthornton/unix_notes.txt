@@ -1,0 +1,16 @@
+cd <path> : Change directory
+
+ls <path> : List contents of directory
+
+ls -l <path> : Get detailed info about each file in dir
+
+pwd : Print working directory
+
+mv <source> <dest> : Move or rename file/directory
+
+rm <file> :Delete a file
+
+rm -r <dir>: Delete a directory
+
+mkdir <dir>: Creates a directory
+

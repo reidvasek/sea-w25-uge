@@ -1,0 +1,26 @@
+la
+-- list all
+
+cd <path>
+-- Changes the working directory to <path>
+
+ls <path>
+-- Lists the directory content of <path>
+
+ls -lt
+-- Lists items and sorts by modification date
+
+ls -r
+-- r reverses the order
+
+man
+-- short for Manual
+-- ex: man ls
+-- q to Quit this command
+
+control c
+-- kill process
+
+cd ~
+-- change directory to home
+-- or just type cd

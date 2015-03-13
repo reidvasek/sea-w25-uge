@@ -1,0 +1,42 @@
+git init <directory name>
+-- Initializes a git directory with this name
+
+git init
+-- Initializes a git directory in whichever directory you are in
+
+git add <file name>
+-- Adds the file to the staging area
+
+git commit -m '<message>'
+-- Commits the changes to the repo
+
+git log
+-- Shows history of all commits
+
+git checkout 7cb4e
+-- Allows you to checkout a specific version from the history
+-- You need only to typ the first 5-6 characters in the version name
+
+git checkout HEAD
+-- Checks out the most recent commit
+
+git checkout HEAD~1
+-- HEAD~1 is a special identifier in git; it stands for the previous commit. Not the one just made, but the one before that.
+
+git master
+-- Checks out the master branch and takes you back to the most recent change.
+
+cat file1
+-- This will print the data in the file called file1
+
+git diff 1221f 7ad76
+-- Tells the difference between two commit versions
+
+git branch <branch name>
+-- Creates a branch with this name
+
+git checkout -b <branch name>
+-- Will checkout this branch and create a branch of this name if it does not exist.
+
+git checkout <branch name>
+-- Switches to this branch and checks out the latest commit for that branch

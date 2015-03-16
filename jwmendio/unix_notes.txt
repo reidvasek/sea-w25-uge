@@ -1,0 +1,35 @@
+//UNIX COMMANDS
+
+ls = list directories and files
+
+ls -l = lists more details about the directories and files: permissions, length of files, owner, timestamp of when it was last edited.
+
+ls -a = lists all directories and files, including hidden . files
+
+clear = clears console
+
+pwd  = (print working directory) displays your current location in the file system
+
+~ = refers to home. Also jumps to home directory.
+
+cd = (change directory) changes your current directory
+
+tab = (tab completion) auto completes text
+
+.. (move up a directory)
+
+up arrow key = (history) shows last command(s)
+
+less <file you want to view> = a program that displays the content of a file
+
+q = exits out of the less program
+
+cat = allows you to display several files one after the other. Also displays content in console.
+
+nano <file name> = a simple text editor
+
+mkdir <directory name> = make a new directory
+
+mv <origin> <destination> = move file from origin path to destination path
+
+touch = update the timestamp of a file. If doesn't exit, it will create a new file and timestamp it.

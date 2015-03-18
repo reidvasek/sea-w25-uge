@@ -1,0 +1,37 @@
+//git notes
+
+git init <project name> = creates a new locoal repository with the specified name
+
+git clone <url> = downloads a prjoect and its entire version history
+
+git status = lists all new or modified files to be commited
+
+git diff = shows file differences not yet stages
+
+git add <file name> = snapshots the file in preparation for versioning
+
+git commit -m "[descriptive message]" = records file snapshots permanently in version history
+
+git log = lists version history for the current branch
+
+git branch = lists all local branches in the current repository
+
+git branch <branch name> = creates a new branch
+
+git checkout <branch name> = switches to the specified branch and updates the working directory
+
+git checkout -b <new branch name> = creates a new branch and switches to it
+
+git merge <branch> = combines the specified branch's history into the current branch
+
+git rm <file> = deletes the file from the working directory and stages the deletion
+
+git remote add <alias> <repo HTTPS clone URL> = adds a remote server to the repo at the clone URL
+
+git remote -v = lists all remote servers of the repo
+
+git fetch <bookmark> = downloads all history from the repository bookmark
+
+git pull = downloads bookmark history and incorporates changes
+
+git push <alias> <branch> = uploads all local branch commits to GitHub

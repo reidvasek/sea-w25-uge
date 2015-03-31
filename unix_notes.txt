@@ -1,0 +1,9 @@
+I have learned to utilize unix to make directories, rename them, 
+
+Also that ....
+
+Applications can live in a lot of homes: 
+a laptop
+a mobile phone
+a web browser,
+or, a server

@@ -1,0 +1,1 @@
+I have learned how to initialize git, how to clone gits, how to pull and push them as well.
